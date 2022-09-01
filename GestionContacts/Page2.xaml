@@ -5,18 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionContacts"
         mc:Ignorable="d"
-        Title="Page2" Height="450" Width="800">
-    <Grid>
-        <Label Content="GESTION DES CONTACTS" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" Width="300" FontSize="24" FontWeight="Bold"/>
-        <TextBox x:Name="txtNom"  HorizontalAlignment="Left" Margin="176,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
-        <TextBox x:Name="txtPrenom" HorizontalAlignment="Left" Margin="176,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
-        <TextBox x:Name="txtTelephone" HorizontalAlignment="Left" Margin="176,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
-        <Label Content="Nom : " HorizontalAlignment="Left" Margin="73,93,0,0" VerticalAlignment="Top"/>
-        <Label Content="Prénom(s) :" HorizontalAlignment="Left" Margin="73,124,0,0" VerticalAlignment="Top"/>
-        <Label Content="Téléphone :" HorizontalAlignment="Left" Margin="73,154,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnEnregistrer" Content="Enregistrer" HorizontalAlignment="Left" Margin="268,189,0,0" VerticalAlignment="Top" Width="76" Background="#FF2DA72F" Foreground="White" Click="btnEnregistrer_Click"/>
-        <Label Content="Liste des contacts" HorizontalAlignment="Center" Margin="0,259,0,0" VerticalAlignment="Top" Width="206" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtListeContacts" HorizontalAlignment="Left" Margin="73,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="683" Height="96" IsReadOnly="True"/>
+        Title="Page2" Height="999" Width="1143">
+    <Grid Margin="10,0,0,-6">
+        <Label Content="Gestion de la Clientèle" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" Width="515" FontSize="48" FontWeight="Bold" FontFamily="Gadugi" Height="79"/>
+        <Label Content="Nom : " HorizontalAlignment="Left" Margin="61,234,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Prénom(s) :" HorizontalAlignment="Left" Margin="61,297,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Téléphone :" HorizontalAlignment="Left" Margin="61,360,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Button x:Name="btnEnregistrer" Content="Enregistrer" HorizontalAlignment="Left" Margin="402,566,0,0" VerticalAlignment="Top" Width="308" Background="#FF2DA72F" Foreground="White" Click="btnEnregistrer_Click" FontSize="48"/>
+        <Label Content="Liste des contacts" HorizontalAlignment="Left" Margin="402,676,0,0" VerticalAlignment="Top" Width="308" FontSize="36" FontWeight="Bold" Height="59"/>
+        <TextBox x:Name="txtListeContacts" HorizontalAlignment="Left" Margin="61,768,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="1006" Height="175" IsReadOnly="True"/>
+        <Label Content="Email :" HorizontalAlignment="Left" Height="77" Margin="61,423,0,0" VerticalAlignment="Top" Width="130" FontSize="36"/>
 
     </Grid>
 </Window>

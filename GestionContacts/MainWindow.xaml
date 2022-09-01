@@ -5,15 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionContacts"
         mc:Ignorable="d"
-        Title="FORMULAIRE DE CONNEXION" Height="337" Width="600" Loaded="Window_Loaded">
-    <Grid Margin="0,0,0,2">
-        <TextBox x:Name="txtNomUtilisateur" HorizontalAlignment="Left" Margin="279,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197"/>
-        <Label Content="Nom d'utilisateur : " HorizontalAlignment="Left" Margin="167,125,0,0" VerticalAlignment="Top" Width="107"/>
-        <Label Content="Mot de passe : " HorizontalAlignment="Left" Margin="187,152,0,0" VerticalAlignment="Top" Width="89"/>
-        <Button x:Name="btnValider"  Content="Valider" HorizontalAlignment="Left" Margin="360,191,0,0" VerticalAlignment="Top" Width="116" Background="#FF2DA72F" Foreground="White" Click="btnValider_Click"/>
-        <Label Content="CONNEXION" HorizontalAlignment="Left" Margin="220,62,0,0" VerticalAlignment="Top" Width="154" FontSize="24" FontWeight="Bold"/>
-        <Image HorizontalAlignment="Left" Height="87" Margin="76,99,0,0" VerticalAlignment="Top" Width="86" Source="/th.jpg"/>
-        <PasswordBox x:Name="txtMotdepasse"   HorizontalAlignment="Left" Margin="279,156,0,0" VerticalAlignment="Top" Width="197"/>
-        <Label x:Name="lblEcran" Content="" HorizontalAlignment="Left" Margin="99,259,0,0" VerticalAlignment="Top" Width="435"/>
+        Title="FORMULAIRE DE CONNEXION" Height="1090" Width="815" Loaded="Window_Loaded">
+    <Grid Margin="10,-21,10,13">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="368*"/>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="446*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnLOGIN"  Content="Log In" HorizontalAlignment="Left" Margin="73,955,0,0" VerticalAlignment="Top" Width="555" Foreground="#FF0BE0D1" Click="btnValider_Click" Grid.Column="1" Grid.ColumnSpan="3" Height="56" FontFamily="Perpetua Titling MT" FontSize="36" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label HorizontalAlignment="Left" Margin="275,400,0,0" VerticalAlignment="Top" Width="180" FontSize="48" FontWeight="Bold" Grid.Column="1" Content="LOG IN" FontFamily="Showcard Gothic" Grid.ColumnSpan="3"/>
+        <Image Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="360" Margin="178,40,0,0" VerticalAlignment="Top" Width="370" Source="/mesimages/360_F_294121555_Tm5oGEVj98B4Ja3zwCbJZJqWketeL6Ne.jpg" Stretch="Fill"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="73,586,0,0" VerticalAlignment="Top" Width="77" Source="/kisspng-person-logo-computer-icons-5af2c2023a8e89.0321517415258588182399.jpg" Stretch="UniformToFill"/>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="9" Margin="73,666,0,0" VerticalAlignment="Top" Width="555" RenderTransformOrigin="0.5,0.5" Background="#FF13E8E3">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="73,805,0,0" VerticalAlignment="Top" Width="77" Source="/téléchargement.png" Stretch="Fill"/>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="9" Margin="73,885,0,0" VerticalAlignment="Top" Width="555" RenderTransformOrigin="0.5,0.5" Background="#FF131515">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+        <Label Grid.Column="1" Content="Exit" HorizontalAlignment="Left" Height="43" Margin="274,1029,0,0" VerticalAlignment="Top" Width="154" Grid.ColumnSpan="3" FontFamily="Cooper Black" FontSize="36" Foreground="#FF16BCC8" Background="#FFFDF8F8" HorizontalContentAlignment="Center"/>
+        <TextBox Name="txtNomUtiisateur" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="70" Margin="178,586,0,0" VerticalAlignment="Top" Width="450" FontFamily="Times New Roman" FontSize="48" BorderBrush="#FFF9FCFD" TextAlignment="Justify" Text=""/>
+        <TextBox Name="txtMotdePasse" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="70" Margin="178,795,0,0" VerticalAlignment="Top" Width="427" FontFamily="Times New Roman" FontSize="48" BorderBrush="#FFF9FCFD" TextAlignment="Justify" Text="" TextChanged="TextBox_TextChanged"/>
     </Grid>
 </Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="BarberShopApp.FrmConnexion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarberShopApp"
+        mc:Ignorable="d"
+        Title="FrmConnexion" Height="491" Width="764">
+    <Grid>
+        <TextBox x:Name="txtPseudo" HorizontalAlignment="Left" Margin="273,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <Label Content="Pseudo : " HorizontalAlignment="Left" Margin="167,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mot de passe : " HorizontalAlignment="Left" Margin="165,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="CONNEXION" HorizontalAlignment="Left" Margin="225,23,0,0" VerticalAlignment="Top" Width="232" FontSize="30"/>
+        <PasswordBox x:Name="txtMotdepasse" HorizontalAlignment="Left" Margin="273,133,0,0" VerticalAlignment="Top" Width="244" KeyDown="txtMotdepasse_KeyDown"/>
+        <Button x:Name="btnValider" Content="Valider" HorizontalAlignment="Left" Margin="432,166,0,0" VerticalAlignment="Top" Width="85" Click="btnValider_Click"/>
+        <CheckBox x:Name="chkResterConnecter" Content="Rester connecter" HorizontalAlignment="Left" Margin="120,176,0,0" VerticalAlignment="Top" Width="127" Checked="chkResterConnecter_Checked" />
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="120,250,71,62"/>
+
+    </Grid>
+</Window>

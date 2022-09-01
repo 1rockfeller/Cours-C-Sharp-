@@ -8,11 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="360_F_294121555_Tm5oGEVj98B4Ja3zwCbJZJqWketeL6Ne.jpg" />
+    <None Remove="b4a460f689e8f24de01729e48e7576c9.jpg" />
+    <None Remove="kisspng-person-logo-computer-icons-5af2c2023a8e89.0321517415258588182399.jpg" />
     <None Remove="th.jpg" />
+    <None Remove="téléchargement.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="th.jpg" />
+    <Resource Include="mesimages\360_F_294121555_Tm5oGEVj98B4Ja3zwCbJZJqWketeL6Ne.jpg" />
+    <Resource Include="mesimages\b4a460f689e8f24de01729e48e7576c9.jpg" />
+    <Resource Include="mesimages\kisspng-person-logo-computer-icons-5af2c2023a8e89.0321517415258588182399.jpg" />
+    <Resource Include="mesimages\th.jpg" />
+    <Resource Include="mesimages\téléchargement.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ModuleConnexion\" />
   </ItemGroup>
 
 </Project>
