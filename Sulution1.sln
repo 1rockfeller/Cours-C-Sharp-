@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionContacts", "GestionC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberShopApp", "BarberShopApp\BarberShopApp.csproj", "{CA68A5C7-C492-407D-A83D-AFF1771382FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tableau", "Tableau\Tableau.csproj", "{D69E5153-9882-4631-8663-2C1EEA954F4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CA68A5C7-C492-407D-A83D-AFF1771382FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA68A5C7-C492-407D-A83D-AFF1771382FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA68A5C7-C492-407D-A83D-AFF1771382FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69E5153-9882-4631-8663-2C1EEA954F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69E5153-9882-4631-8663-2C1EEA954F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69E5153-9882-4631-8663-2C1EEA954F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69E5153-9882-4631-8663-2C1EEA954F4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
