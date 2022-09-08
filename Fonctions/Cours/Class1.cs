@@ -8,6 +8,6 @@ namespace Fonctions.Cours
 {
     class Class1
     {
-
+        mahgiljhkjdalngiluhakgjygkh
     }
 }
