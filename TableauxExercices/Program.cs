@@ -53,38 +53,38 @@
  * 
  */
 
-decimal[] tableauPrix = new decimal[5] { 1000, 15000, 50, 700, 250 };   //7
-decimal[] tableauQuantites = new decimal[7] { 10, 4, 25, 1, 1, 4, 8 };      // 5
-decimal totalPaye = 0;
+//decimal[] tableauPrix = new decimal[5] { 1000, 15000, 50, 700, 250 };   //7
+//decimal[] tableauQuantites = new decimal[7] { 10, 4, 25, 1, 1, 4, 8 };      // 5
+//decimal totalPaye = 0;
 
-if (tableauPrix.Length < tableauQuantites.Length)
-{
-    for (int index = 0; index < tableauPrix.Length; index++)
-    {
-        totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
-    }
-}
-else
-{
-    for (int index = 0; index < tableauQuantites.Length; index++)
-    {
-        totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
-    }
-}
+//if (tableauPrix.Length < tableauQuantites.Length)
+//{
+//    for (int index = 0; index < tableauPrix.Length; index++)
+//    {
+//        totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
+//    }
+//}
+//else
+//{
+//    for (int index = 0; index < tableauQuantites.Length; index++)
+//    {
+//        totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
+//    }
+//}
 
-int nombreDeTours = 0;
+//int nombreDeTours = 0;
 
-if(tableauPrix.Length < tableauQuantites.Length)
-    nombreDeTours = tableauPrix.Length;
-else
-    nombreDeTours= tableauQuantites.Length;
+//if(tableauPrix.Length < tableauQuantites.Length)
+//    nombreDeTours = tableauPrix.Length;
+//else
+//    nombreDeTours= tableauQuantites.Length;
 
-for (int index = 0; index < nombreDeTours; index++)
-{
-    totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
-}
+//for (int index = 0; index < nombreDeTours; index++)
+//{
+//    totalPaye = totalPaye + (tableauPrix[index] * tableauQuantites[index]);
+//}
 
-Console.WriteLine(totalPaye);
+//Console.WriteLine(totalPaye);
 
 
 
@@ -103,19 +103,27 @@ Console.WriteLine(totalPaye);
  * 
  * 
  */
-
+int valeurSaisi = 0;
 int[] tabl = new int[5];
-tabl[0] = int.Parse(Console.ReadLine()); ;
-tabl[1] = int.Parse(Console.ReadLine()); ;
-tabl[2] = 0;
-tabl[3] = 0;
-tabl[4] = 0;
+
 
 for (int index = 0; index < tabl.Length; index++)
 {
     Console.WriteLine("Sasir un nombre");
-    int valeurSaisi = int.Parse(Console.ReadLine());
+    valeurSaisi = int.Parse(Console.ReadLine());
     tabl[index] = valeurSaisi;
 }
 
-josdhuilhnbkjshgiulhnsdkmgbjklhbkjn
+// afficher le plus petit 
+int nombrePetit = tabl[0];
+for (int index = 0; index < tabl.Length; index++)
+{
+    if(tabl[index] < nombrePetit)
+    {
+        nombrePetit = tabl[index];
+    }
+}
+
+Console.WriteLine("Le nombre petit : " +nombrePetit);
+
+
