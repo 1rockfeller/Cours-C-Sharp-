@@ -8,8 +8,11 @@ namespace Fonctions
 {
     public class Program
     {
-        Fonctions f = new Fonctions();
-        
+        //Fonctions f = new Fonctions();
+        static void Main(string[] args)
+        {
+            
+        }
     }
 }
 

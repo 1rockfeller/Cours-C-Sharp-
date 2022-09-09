@@ -17,7 +17,7 @@ namespace Fonctions
             string nom = monCoiffeur.Nom;
 
 
-            TG 2525 AB 
+           
              
         }
 
