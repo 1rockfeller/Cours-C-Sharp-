@@ -16,21 +16,21 @@ namespace Fonctions
     }
 }
 
-// Précédures : Ne retourne pas de valeur (void) 
+Précédures: Ne retourne pas de valeur (void) 
 
-/*
- *  Syntaxe : Visibilité typeRetour Nom (parametres )
- *  {
- *      corps de la fonction/procedecure
- *  }
- * 
- *  Ex : 
- *  
- *  Syntaxe : public void MaPremiereProcedure ()
- *  {
- *      corps de la fonction/procedecure
- *  }
- * 
- */
+
+   Syntaxe : Visibilité typeRetour Nom (parametres )
+               {
+                   corps de la fonction/procedecure
+               }
+  
+   Ex : 
+   
+   Syntaxe : public void MaPremiereProcedure ()
+              {
+                   corps de la fonction/procedecure
+              }
+  
+ 
 
 

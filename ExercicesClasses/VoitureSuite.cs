@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fonctions.GestionEleves
+namespace ExercicesClasses
 {
-    public class Class1
+    public partial class Voiture
     {
+        public int VitesseMax { get; set; }
     }
 }
