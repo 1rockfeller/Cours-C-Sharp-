@@ -19,7 +19,7 @@ namespace ExercicesClasses
             try
             {
                 // Creation de la connexion  
-                con = new SqlConnection("data source=51.79.69.136,1433; database=BaseRock; User ID = sa; Password = P@$$w0rd");
+                con = new SqlConnection("data source=; database=; User ID = ; Password = ");
                 // la requete sql  
                 SqlCommand cm = new SqlCommand("create table student(id int not null, name varchar(100), email varchar(50), join_date date)", con);
                 // Ouvrir la connexion  
@@ -47,7 +47,7 @@ namespace ExercicesClasses
             try
             {
                 // Creation de la connexion 
-                con = new SqlConnection("data source=51.79.69.136,1433; database=BaseRock; User ID = sa; Password = P@$$w0rd");
+                con = new SqlConnection("data source=; database=; User ID = ; Password = ");
 
                 // la requete sql  
                 SqlCommand cm = new SqlCommand("Select * from student", con);
